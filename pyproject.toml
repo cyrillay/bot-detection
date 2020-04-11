@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bot-detection"
+version = "0.1.0"
+description = ""
+authors = ["Cyril Lay <cyril31180@hotmail.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.3"
+six = "^1.14.0"
+seaborn = "^0.10.0"
+scikit-learn = "^0.22.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
